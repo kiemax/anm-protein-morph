@@ -11,3 +11,6 @@ package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[project.scripts]
+anm-morph = "anm_morph.cli:main"
